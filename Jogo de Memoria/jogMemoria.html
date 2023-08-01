@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Memoria</title>
+    <link rel="stylesheet" href="jogMemoria.css">
+</head>
+<body>
+    <div class="timer"> Tempo: 60s</div>
+    <section class="Conteiner">
+        <fieldset class="linha Up">
+            <div class="cartas" data-id="img1">
+                <img class="front_side" src="_imagens/img1.jpg">
+                <img class="back_side" src="_imagens/verso.png">
+            </div>
+            <div class="cartas" data-id="img2">
+                <img class="front_side" src="_imagens/img2.jpg">
+                <img class="back_side" src="_imagens/verso.png">
+            </div>
+            <div class="cartas" data-id="img3">
+                <img class="front_side" src="_imagens/img3.jpg">
+                <img class="back_side" src="_imagens/verso.png">
+            </div>
+            <div class="cartas" data-id="img4">
+                <img class="front_side" src="_imagens/img4.jpg">
+                <img class="back_side" src="_imagens/verso.png">
+            </div>
+        </fieldset>
+        <fieldset class="linha Bottom">
+            <div class="cartas" data-id="img4">
+                <img class="front_side" src="_imagens/img4.jpg">
+                <img class="back_side" src="_imagens/verso.png">
+            </div>
+            <div class="cartas" data-id="img3">
+                <img class="front_side" src="_imagens/img3.jpg">
+                <img class="back_side" src="_imagens/verso.png">
+            </div>
+            <div class="cartas" data-id="img2">
+                <img class="front_side" src="_imagens/img2.jpg">
+                <img class="back_side" src="_imagens/verso.png">
+            </div>
+            <div class="cartas" data-id="img1">
+                <img class="front_side" src="_imagens/img1.jpg">
+                <img class="back_side" src="_imagens/verso.png">
+            </div>
+        </fieldset>
+    </section>
+    <div class="Placar">
+        <h1 class="message">Parabêns Você Venceu!</h1>
+        <button class="newGame">Novo Jogo</button>
+       </div>
+    <script src="JogMemoria.js"></script>
+</body>
+</html>

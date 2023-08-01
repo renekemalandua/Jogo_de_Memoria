@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 10, 100);
+    
+}
+.timer{
+    color: white;
+    margin-left: -1100px;
+    margin-top: -550px;
+    position: absolute;
+    font-size: xx-large;
+}
+.Placar{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 0.5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(6, 6, 184, 0.603);
+    color: gold;
+    position: absolute;
+}
+.newGame{
+    width: 150px;
+    background-color: rgba(6, 6, 184, 0.603);
+    box-shadow: 0px 0px 5px 0.5px;
+    color: gold;
+    border: 0px;
+}
+.cartas{
+    background-color: rgba(6, 6, 184, 0.603);
+    width: 200px;
+    height: 300px;
+    margin: 5px;
+    box-shadow: 0px 0px 5px 0.5px;
+    border-radius: 10px;
+    color: white;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+.cartas.rotação{
+    transform: rotateY(180deg);
+}
+.linha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: none;
+}
+.Bottom{
+    margin-top: -15px;
+}
+.front_side, .back_side{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+
+    position: absolute;
+    background-color: darkblue;
+    backface-visibility: hidden;
+}
+.front_side{
+    transform: rotateY(180deg);
+}
